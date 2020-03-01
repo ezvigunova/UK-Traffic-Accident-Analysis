@@ -3,9 +3,12 @@
 For the purpose of this project, I will be using the UK traffic accidents datasets provided by the UK Department of Transport.
 
 They can be found here: 
+
 https://www.kaggle.com/daveianhickey/2000-16-traffic-flow-england-scotland-wales 
+
 and
-https://www.kaggle.com/tsiaras/uk-road-safety-accidents-and-vehicles)
+
+https://www.kaggle.com/tsiaras/uk-road-safety-accidents-and-vehicles
 
 There are 2 datasets that contain all of the accident reports from 2009 to 2014, another dataset contains all vehicle and non-personal driver information for each of those accidents, as well as the UK traffic congestion data. The traffic congestion dataset provides a daily average count of vehicles that were on the UK roads. It does not have any common columns with the other datasets; however, it will be invaluable for providing insights into how changes in traffic congestion impact accidents. Before conducting data analysis and mining, it is crucial to merge these datasets properly, as well as perform data wrangling and preparation. As a result, there will be one dataset containing all necessary information and variables that will be needed to perform the analysis. 
 
