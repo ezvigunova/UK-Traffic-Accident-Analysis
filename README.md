@@ -12,13 +12,18 @@ However, in order to reveal more specific factors that contribute to the number 
 
 In order to investigate if a number of casualties can be predicted by a number of factors such as number of vehicles involved in a crash, speed limits, accident severity and others, I ran a multiple linear regression analysis. The input variables were 'Longitude', 'Latitude', 'Police Force', 'Number of Vehicles',  'Day of Week', 'Local Authority (District)', 'Speed limit',  'Urban or Rural Area', 'Year_', ‘Accident Severity',  'Age of Vehicle', 'hour', 'Road Surface', 'Road Type', 'Maneuver', and 'Crash Type'. The output variable was the number of casualties. 
 
-Intercept: 
- [1.32276594]
+Intercept: [1.32276594]
+
 Coefficients: 
+
  [[-2.84330452e-02  5.56134857e-02 -1.52708531e-05  3.66974789e-01
+ 
    1.44471544e-03  1.94156742e-05  5.14743346e-03  4.76178210e-02
+   
   -1.66608120e-03 -2.01394819e-01  3.97791655e-03  6.98099207e-03
+  
    1.13676563e-02 -2.52087193e-02 -7.67474490e-03  4.86835431e-02]]
+   
 Variance train score: 0.14783150972710124
 
 These results indicate that for each additional road casualty, there are 3 more vehicles involved in an accident, an increase of speed limit by 5 points, and a significant increase in accident severity. Investigating the impact speed limits play in accidents further reveals that the majority of fatal accidents happen at speed of 60 and 30 mph. However, most non-fatal accidents happen mostly at the speed of 30 on single carriageways, making speed quite an impactful aspect.
